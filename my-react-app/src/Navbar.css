@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue; /* Change to your preferred blue color */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .company-name {
+    color: white; /* Text color for company name */
+    font-weight: bold;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust spacing between menu items */
+    color: white; /* Text color for menu items */
+    cursor: pointer;
+  }
+  
+  .menu li:first-child {
+    margin-left: 0;
+  }
+  
